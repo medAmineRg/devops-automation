@@ -13,7 +13,7 @@ spec:
         app: devops-automation
     spec:
       containers:
-        - name: spring-boot-k8s
+        - name: devops-automation
           image: mohamed99amine/devops-automation # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
